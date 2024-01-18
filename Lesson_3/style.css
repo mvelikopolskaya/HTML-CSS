@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "InterBold";
+  src: url(./fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "InterLight";
+  src: url(./fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: "InterRegular";
+  src: url(./fonts/Inter-Regular.ttf);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main_page {
+  display: flex;
+  padding: 40px 373px 100px 373px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 84px;
+}
+
+.top_menu {
+  display: flex;
+  align-items: center;
+  gap: 460px;
+}
+
+.top_logo {
+  display: flex;
+  width: 137px;
+  height: 40px;
+  padding-right: 0.878px;
+  justify-content: center;
+  align-items: center;
+  gap: 14.792px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.top_link {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  font-family: "InterRegular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.link_home_main {
+  color: #f25822;
+}
+
+.link_main {
+  display: inline-flex;
+  color: #000;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content_home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: auto;
+}
+
+.header_home {
+  align-self: stretch;
+  color: #000;
+  font-family: "InterBold";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.text_home {
+  align-self: stretch;
+  color: #888;
+  font-family: "InterLight";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.home_btn {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  font-family: "InterRegular";
+}
+
+.start_btn {
+  display: flex;
+  width: 140px;
+  padding: 16px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 56px;
+  border: none;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.watch_btn {
+  color: #aaa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+.img_home {
+  flex-shrink: 0;
+}
+
+.brand_logo {
+  display: flex;
+  padding: 100px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
